@@ -1,1 +1,1 @@
-FROM bitnami/kafka:latest
+FROM docker.io/bitnamilegacy/kafka:4.0
