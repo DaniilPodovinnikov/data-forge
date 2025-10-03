@@ -11,7 +11,7 @@
     "iceberg.catalog.warehouse": "s3a://iceberg/warehouse",
     "iceberg.control.commit.interval-ms": "1000",
     "iceberg.tables": "raw.demo_public_products",
-    "iceberg.tables.auto-create-enabled": "true",
+    "iceberg.tables.auto-create-enabled": "false",
     "key.converter": "org.apache.kafka.connect.storage.StringConverter",
     "key.converter.schemas.enable": "false",
     "name": "iceberg-sink-demo-products",
