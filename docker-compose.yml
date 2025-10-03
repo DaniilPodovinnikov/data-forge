@@ -247,7 +247,7 @@ services:
             - name: connect
               url: http://kafka-connect:8083
     ports:
-      - 8080:8080
+      - 8089:8080
     depends_on:
       - kafka
       - kafka-connect
@@ -557,7 +557,7 @@ services:
       - ./infra/superset/create_admin.sh:/app/pythonpath/create_admin.sh
     depends_on:
       - trino
-    profiles: [core]
+    profiles: [bi]
 
   jupyterlab:
     build:

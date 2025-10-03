@@ -1,3 +1,3 @@
 
-FROM bitnami/spark:3.5.6
+FROM docker.io/bitnamilegacy/spark:3.5.6
 RUN pip install --no-cache-dir pyarrow pandas fastavro confluent-kafka[avro]
