@@ -5,10 +5,10 @@ dbt_lh:
       type: trino
       method: none  # optional, one of {none | ldap | kerberos}
       user: admin
-      database: iceberg
+      database: cedrus
       host: localhost
       port: 8080
-      schema: sandbox
+      schema: sandbox1
       threads: 1
 
   target: dev
